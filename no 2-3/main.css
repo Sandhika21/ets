@@ -1,0 +1,58 @@
+h1, h2 {
+    text-align: center;
+    color: yellow;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    height: 70%;
+    background-color: lightblue;
+}
+
+.contain > .contain2 {    
+    overflow: auto;
+}
+
+.pendaftaran {
+    padding: 5px;
+    border: 2px solid grey;
+    width: 100%;
+    height: 100%;
+}
+
+.contain > .koleksi {
+    padding: 5px;
+    border: 2px solid gray;
+}
+
+.search {
+    width: 100%;
+    height: 100px;
+}
+
+.inp {
+    float: right;
+    margin: 0px 2px;
+    display: inline;
+}
+ 
+.containr {
+    width: 100%;
+    height: 50%;
+    background-color: darkseagreen;
+    display: inline;
+    border: 2px solid grey;
+}
+
+.cont {
+    width: 50%;
+    height: 100%;
+    border: 2px solid grey;
+    float: left;
+}
